@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Days of being wild</title>
+<style>
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  font-family:"맑은 고딕","돋움";
+  font-size:18px;
+  color:white;
+}
+ul {
+  list-style-type:none;
+}
+.clear {
+  clear:both;
+}
+
+body{
+  background-image: url("img/bg.png");
+  background-size: cover;
+}
+header #logo {
+    float:left;
+    margin: 20px 0 0 80px;
+}
+header #top_menu {
+    background-color: black;
+    float:left;
+    padding-left: 30px;
+    padding-right: 1300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:35px 0 0 0;
+}
+header #top_menu li {
+    display:inline;
+    margin-left: 40px;
+}
+footer {
+    position: fixed;
+    font-family:"맑은 고딕","돋움";
+    font-size:10px;
+    color: grey;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    bottom:  0px;
+}
+footer #address {
+    float:left;
+    margin:25px 0 0 50px;
+}
+footer #footer_menu li {
+    margin-top:5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#page {
+    width:1100px;
+    margin:0 auto;
+}
+#poster {
+    box-shadow:0px 5px 20px black;
+    float:left;
+    margin:73px 0 0 70px;
+}
+#banner {
+    float:left;
+    margin: 10px 0 0 70px;
+}
+#banner2 {
+    float:left;
+    margin: 200px 0 0 120px;
+}
+.floating{
+    position: fixed;
+    left: 117%;
+    bottom: 800px;
+    margin-left: -900px;
+    width: 30px;
+}
+.floating2{
+    position: fixed;
+    margin-left: -130px;
+    margin-top: 270px;
+    width: 30px;
+}
+.floating3{
+    position: fixed;
+    left: 120%;
+    margin-top: 200px;
+    margin-left: -800px;
+    width: 30px;
+}
+.floating4{
+    position: fixed;
+    margin-top: 680px;
+    margin-left: 1300px;
+    width: 30px;
+}
+.floating5{
+    position: fixed;
+    margin-top: 310px;
+    margin-left: 1280px;
+    width: 30px;
+}
+#thumnail {
+    padding:30px 0 0 70px;
+}
+#thumnail #move_left {
+    float:left;
+    margin:20px 5px 0 60px;
+}
+#thumnail #photos {
+    float:left;
+    margin: 0px 0 0 100px;
+}
+#thumnail #move_right {
+    float:left;
+    margin:20px 0 0 120px;
+}
+#thumnail #photos li {
+    display:inline;
+    margin-left:10px;
+}
+#thumnail #photos img {
+    border:solid 5px #3d3d3d;
+}
+#thumnail #photos a:hover img {
+    border:solid 5px green;
+}
+#left {
+    margin-top: 50px;
+    width:200px;
+    height:600px;
+    float:left;
+    color:black;
+}
+#left ul {
+    font-size:20px;
+    padding:30px 0px 5px 25px;
+}
+#left li {
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+#right {
+    margin-top: 50px;
+    width:900px;
+    height:600px;
+    float:left;
+    background-color:#252525;
+}
+#main_title {
+    width:800px;
+    padding:10px;
+    margin:24px 0 0 24px;
+    font-size:18px;
+    color:#ffffff;
+    font-weight:bold;
+}
+#main_img {
+    padding:20px 0 0 150px;
+}
+#photo{
+    position: fixed z-index: -1;
+    margin-left: 400px;
+}
+</style>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img id="logo" src="img/name.jpg" width=200px></a>
+    <ul id="top_menu">
+      <li><a href="index1.html">introduce</a></li>
+      <li>gallery</li>
+    </ul>
+  </header>
+  <section id="photo">
+  <div id="left">
+    <ul>
+      <li class="submenu"><a href="gallery.html">#장국영</li>
+      <li class="submenu"><a href="html.html">#영상미</li>
+    </ul>
+  </div>
+  <div id="right">
+    <div id="main_title">
+    #영상미
+    </div>
+    <img id="main_img" src="img/3-3-3.png">
+    <div id="thumnail">
+    <img id="move_left" src="img/left.png">
+      <ul id="photos">
+        <li><a href="html3.html"><img src="img/3-3-3-3.png"></a></li>
+        <li><a href="html4.html"><img src="img/4-4-4-4.png"></a></li>
+        <li><a href="html5.html"><img src="img/5-5-5-5.png"></a></li>
+        <li><a href="html.html"><img src="img/1-1-1-1.png"></a></li>
+        <li><a href="html2.html"><img src="img/2-2-2-2.png"></a></li>
+      </ul>
+      <img id="move_right" src="img/right.png">
+    </div>
+  </div>
+</section>
+<footer>
+  <article id="address">
+    <ul id="footer_menu">
+      <li>개인정보 취급방침 | 이용 안내 | 이메일 무단수집 거부</li>
+      <li>포트폴리오 갱신 | 포트폴리오 안내 | 포트폴리오 접수 | 자기소개서 안내 | 자기소개서 갱신</li>
+    </ul>
+  </article>
+</footer>
+</div>
+</body>
+</html>

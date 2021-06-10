@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Days of being wild</title>
+<style>
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  font-family:"맑은 고딕","돋움";
+  font-size:18px;
+  color:white;
+}
+ul {
+  list-style-type:none;
+}
+.clear {
+  clear:both;
+}
+
+body{
+  background-image: url("img/bg.png");
+  background-size: cover;
+}
+header #logo {
+    float:left;
+    margin: 20px 0 0 80px;
+}
+header #top_menu {
+    background-color: black;
+    float:left;
+    padding-left: 30px;
+    padding-right: 1300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:35px 0 0 0;
+}
+header #top_menu li {
+    display:inline;
+    margin-left: 40px;
+}
+footer {
+    position: fixed;
+    font-family:"맑은 고딕","돋움";
+    font-size:10px;
+    color: grey;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    bottom:  0px;
+}
+footer #address {
+    float:left;
+    margin:25px 0 0 50px;
+}
+footer #footer_menu li {
+    margin-top:5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+aside {
+    width:190px;
+    margin:50px 0 0 220px;
+    float:left;
+}
+aside #banner {
+    width:186px;
+    height:120px;
+}
+
+#down_menu {
+  position: fixed z-index: -1;
+  width:700px;
+  margin-left: 100px auto;
+  padding-left: 600px;
+  padding-top: 150px;
+}
+.menu {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.menu_d1 {
+  display: table-cell;
+}
+.M_link {
+  display: block;
+  height: 36px;
+  border: 1px;
+  solid: #423e3a;
+  border-radius:25px;
+  margin: 0 10px;
+  font-size: 12px;
+  line-height: 36px;
+  color: #423e3a;
+  background: #fff;
+  text-align: center;
+}
+
+.menu_d1:hover .M_link {
+  color: green;
+  font-weight: bold;
+}
+.menu_d1:active .M_link {
+  position: relative;
+  border-color: #423e3a;
+  font-weight: bold;
+  color: #fff;
+  background: #423e3a;
+}
+
+#page {
+    z-index: 1;
+    width:1100px;
+    margin:0 auto;
+}
+#poster {
+    float:left;
+    margin:73px 0 0 70px;
+}
+.work {
+    float:right;
+    margin:60px 300px 0 0;
+}
+.awards2 {
+    float:right;
+    margin:30px 300px 0 0;
+}
+.floating{
+    position: fixed;
+    left: 117%;
+    bottom: 800px;
+    margin-left: -900px;
+    width: 30px;
+}
+.card{
+     width: 300px;
+     background-color: black;
+     box-shadow:0px 5px 20px black;
+     margin: 20px 0px 400px 0px;
+     float: left;
+     margin-top: 60px;
+     margin-left: 70px;
+}
+.card_top{
+     position: relative;
+}
+.card_top img{
+     display: block;
+}
+.card_bottom{
+     padding: 25px;
+}
+</style>
+</head>
+<body>
+  <div class="floating"><img src="img/eng.png" width=500px></div>
+  <header>
+    <a href="index.html"><img id="logo" src="img/name.jpg" width=200px></a>
+    <ul id="top_menu">
+      <li><a href="index1.html">introduce</a></li>
+      <li><a href="gallery.html">gallery</a></li>
+    </ul>
+  </header>
+  <div id="down_menu">
+    <ul class="menu">
+      <li class="menu_d1"><a href="index1.html" class="M_link">영화 소개</a></li>
+      <li class="menu_d1"><a href="index2.html" class="M_link">주인공 소개</a></li>
+      <li class="menu_d1"><a href="index3.html" class="M_link">감독 소개</a></li>
+   </ul>
+  </div>
+  <aside>
+    <div class="banner"><img src="img/banner3.png" width=160px></div>
+  </aside>
+  <div>
+          <div class="card">
+              <div class="card_top">
+                  <img width="300px" src="img/wang.jpg">
+              </div>
+              <div class="card_bottom">
+                  <h2>왕가위</h2><br><br>
+                  <div class="long_line"></div>
+                  <p>세계적으로 인정받고 있는 홍콩 영화계를 대표하는 영화감독.
+                    1958년 7월 17일 상하이에서 태어나 5살때 홍콩으로 이주해 자랐다.
+                    대학에서는 그래픽 디자인을 전공했다.
+                    영화의 독특한 영상미와 허무가 특징.
+                  </p>
+              </div>
+          </div>
+          <div class="work"> <img src="img/work.png"></div>
+          <div class="awards2"> <img src="img/awards2.png"></div>
+<footer>
+  <article id="address">
+    <ul id="footer_menu">
+      <li>개인정보 취급방침 | 이용 안내 | 이메일 무단수집 거부</li>
+      <li>포트폴리오 갱신 | 포트폴리오 안내 | 포트폴리오 접수 | 자기소개서 안내 | 자기소개서 갱신</li>
+    </ul>
+  </article>
+</footer>
+</div>
+</body>
+</html>
